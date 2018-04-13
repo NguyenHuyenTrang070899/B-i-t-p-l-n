@@ -287,7 +287,7 @@ void creatMapBoom(int **arr, int numCol, int numRow){
 
   Sleep(100);
  }
-
+//Hàm chuyển đổi tọa độ sang mảng.
 void covertCoordToArr(ToaDo * pnt, const ToaDo * pntArr){
  pnt->_x = X0 + 3 + pntArr->_y;
  pnt->_y = Y0 + 3 + pntArr->_x;
@@ -321,11 +321,12 @@ void areaOpen(int** arr,const ToaDo* pnt,const ToaDo* pntArr, int numCol, int nu
   }
  }
 }
-
+//Hàm cập nhật số mìn hiện tại.
 void updateBoomRemove(const int* boomNotRemoved){
  gotoxy(20, 5);
  cout << "BOOM : " << *boomNotRemoved;
 }
+//Hàm in thông tin khi một ô được mở.
 void printArr(int** Arr, int* numCol, int* numRow){
  for(int i = 0; i < *numCol ; i++){
   for(int j = 0; j < *numRow ; j++){
@@ -335,3 +336,4 @@ void printArr(int** Arr, int* numCol, int* numRow){
   cout << endl;
  }
 }
+
