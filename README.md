@@ -1,7 +1,7 @@
 # Bài tập lớn
 - Tên Game: DÒ MÌN
 - Tên tác giả: Nguyễn Thị Huyền Trang
-         MSSV: 17021075
+               MSSV: 17021075
 - Thời gian hoàn thành: 1 tháng
 - Luật chơi: Bạn cần tìm ra tất cả số mìn mà Game yêu cầu bằng cách:
             + Sử dụng các phím mũi tên để di chuyển lên, xuống, trái, phải
